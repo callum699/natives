@@ -1,6 +1,6 @@
----
+ns: start
 ns: STREAMING
----
+end
 ## REQUEST_MODEL
 
 ```c
@@ -24,5 +24,5 @@ end
 -- omitted: creating a vehicle
 
 -- when done using the model
-SetModelAsNoLongerNeeded(modelHash)
-```
+SetModelAsNoLongerNeeded(modelHash)'
+end
